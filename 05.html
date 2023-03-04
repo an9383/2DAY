@@ -6,12 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>배경</title>
   <style>
+    body {
+      height: 3000px;
+      background-image: url(images/bg5.png);
+      background-position: right bottom;
+      background-attachment: fixed;
+    }
     .box { width: 500px; height: 500px;
       border: 1px solid red ;
       margin: 50px auto;
       background-image: url(images/bg1.png);
       background-repeat: no-repeat;
-      background-position: bottom center}
+      /* background-position: bottom center; */
+      background-size: cover;
+
+    }
   </style>
 </head>
 <body>
